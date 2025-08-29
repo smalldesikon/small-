@@ -1,0 +1,11 @@
+local messageList = {
+    "我#妈了，我开挂，我是挂钩——司空制作"
+}
+
+local delay = 1
+
+while true do
+    local randomMessage = messageList[math.random(1, #messageList)]
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(randomMessage, "All")
+    wait(delay)
+end
