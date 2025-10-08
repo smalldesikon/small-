@@ -1,0 +1,8 @@
+local msg = Instance.new("Message",workspace)
+msg.Text = "闲着没事来执行这个都能写半张作业了"
+wait(1.8)
+msg:Destroy()
+local msg = Instance.new("Message",workspace)
+msg.Text = "快去写吧"
+wait(1.8)
+msg:Destroy()
