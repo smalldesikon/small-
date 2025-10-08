@@ -6,3 +6,7 @@ local msg = Instance.new("Message",workspace)
 msg.Text = "快去写吧"
 wait(1.8)
 msg:Destroy()
+local msg = Instance.new("Message",workspace)
+msg.Text = "关注快手：smallの司空_欧氪鸭pls"
+wait(1.8)
+msg:Destroy()
